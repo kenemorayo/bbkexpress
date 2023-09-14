@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    
+}
+
+header{
+    display: flex;
+    background-color: rgb(252, 201, 91);
+    height: 85px;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9;
+    
+
+    
+}
+ .login-page .reg:hover{
+    background-color: white;
+    transform: scale(1.4);
+    transition: 1s;
+ }
+ .login-page .log:hover{
+    background-color: white;
+    transform: scale(1.5);
+    transition: 1s;
+ }
+
+.first{
+    /* background-color: blue; */
+    height: 75px;
+    width: 40%;
+    padding-top: 10px;
+    padding-left: 120px;
+    color: maroon;
+    font-weight: bold;
+    
+}
+figure h1{
+    font-family: cursive;
+    padding-top: 30px;
+}
+nav{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 160px;
+    /* justify-content: space-between; */
+    /* align-content: space-between; */
+    gap: 50px;
+    height: 40px;
+    width: 30%;
+    /* background-color: blueviolet; */
+}
+nav select{
+    width: 100px;
+    background-color: rgb(252, 201, 91);
+    border: 0;
+
+
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 120%;
+}
+.second-line{
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    color: maroon;
+    padding-left: 600px;
+    font-weight: 700;
+     font-family: Arial, Helvetica, sans-serif;
+     position: fixed;
+     z-index: 8;
+     padding-top: 90px;
+
+}
+section{
+    background-color: rgb(252, 201, 91);
+    height: 40px;
+    width: 100%;
+    position: relative;
+    top: 110px;
+    display: flex;
+    gap: 80px;
+    padding-left: 90px;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 9;
+    
+}
+section  .info a{
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 120%;
+    padding: 10px;
+}
+/* section .info:hover{
+    background-color: red;
+} */
+section .login-page{
+     background-color: rgb(252, 201, 91);
+     height: 20px;
+     width: 30%;
+     padding-top: 10px;
+}
+.first-pic{
+     background-image: url(hsbs\ craft.jpg);
+        width: 100%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* background-attachment: fixed; */
+}
+.bg-text{
+    text-align: center;
+    margin-top: 30px;
+    /* background-color: rgb(252, 201, 91); */
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    font-size: 170%;
+    padding: 80px 50px;    
+}
+.main-body{
+    /* background-color: crimson; */
+    height: 450px;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+.kkk{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* background-color: burlywood; */
+    /* z-index: 1; */
+
+}
+.main-body .pics-r{
+    width: 80%;
+    background-image: url(truck\ pic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    height: 400px;
+    /* position: relative; */
+    /* z-index: 1; */
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.road-value{
+    /* background-color: darkmagenta; */
+    height: 400px;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 40px;
+    /* position: relative; */
+    margin-right: 100px;
+
+    
+}
+.main-body .road-value h1{
+    font-size: 1000%;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 128, 87, 0.6);
+}
+.main-body .road-value p{
+    text-align: center;
+    font-size: 130%;
+    font-weight: 300;
+}
+.eee{
+    display: grid;
+    height: 450px;
+    grid-template-columns: 50% 50%;
+    padding-top: 10px;
+    margin-top: 50px;
+    /* background-color: deeppink; */
+    
+    
+
+}
+.rail-pics{
+    width: 80%;
+    height: 400px;
+    background-image: url(rail\ pic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    margin-left: 800px;
+    margin-bottom: 110px;
+    position: relative;
+    bottom: 390px;
+    z-index: 1;
+    
+
+}
+
+.rail-value h1{
+     font-size: 1000%;
+     text-align: center;
+     /* background-color: darkgoldenrod; */
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: crimson;
+    padding-top: 90px;
+}
+.rail-value .rail-essay{
+    text-align: center;
+    font-size: 130%;
+    font-weight: 300;
+    padding-top: 40px;
+}
+.nnn{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* background-color: cornflowerblue; */
+    margin-top: 30px;
+    height: 500px;
+
+}
+.ocean-pic{
+    width: 80%;
+    height: 400px;
+    background-image: url(ocean.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    margin-top: 20px;
+    position: relative;
+    left: 100px;
+    /* z-index: 1; */
+}
+.ocean-value h1{
+    /* background-color: grey; */
+    font-size: 1000%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightskyblue;
+    padding-bottom: 5cqw;
+    margin-top: 20px;
+}
+.ocean-value p{
+   text-align: center;
+   font-size: 130%;
+   font-weight: 300;
+}
+.ocean-value{
+    position: relative;
+    right: 20px;
+}
+.bbb{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* background-color: saddlebrown; */
+    margin-top: 30px;
+    height: 500px;
+
+
+}
+.air-ways h1{
+    font-size: 1000%;
+     text-align: center;
+     /* background-color: lightyellow; */
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  rgb(252, 201, 91);
+    padding-top: 90px;
+}
+.air-ways p{
+    text-align: center;
+    font-size: 130%;
+    font-weight: 300;
+    /* background-color: aqua; */
+    padding-left: 20px;
+}
+.air-ways{
+   position: relative;
+   left: 100px;
+   padding-top: 30px;
+   height: 200px;
+   width: 80%;
+   padding-left: 20px;
+}
+.air-pic{
+    width: 80%;
+    height:  400px;
+    background-image: url(hsbs\ craft.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    position: relative;
+    right: 30px;
+    
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: rgb(252, 201, 91);
+    height: 100px;
+    padding-top: 30px;
+    justify-items: center;
+}
+.com-no{
+   /* background-color: blueviolet; */
+   font-size: 150%;
+   color: rgb(10, 36, 10);
+   padding-right: 70px;
+   padding-top: 30px;
+}
+.call button{
+    height: 40px;
+    width: 110%;
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.contact{
+    display: inline;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+    width: fit-content;
+    text-align: center;
+   
+    /* gap: 500px;
+    width: 30%; */
+}
+.contact p{
+    margin-left: 35px;
+}
+.social{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.social a{
+    transition: 0.8s;
+}
+.social a:hover{
+    transform: translateY(-20px);
+    color: rgb(255, 255, 255);
+  }
+.contact i{
+    font-size: 32px;
+    position: relative;
+    z-index: 1;
+    color: #db0000;
+    /* margin: 3opx 3opx; */
+    /* gap: 50px; */
+    width: 15%;
+}
+.contact p{
+    font-weight: 600px;
+    color: rgb(10, 36, 10);
+    font-size: xx-large;
+    padding-bottom: 10px;
+
+    
+
+}
+.call{
+     padding-left: 90px;
+    padding-top: 30px; 
+}
+.call a{
+    /* background-color: chocolate; */
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    height: 30px;
+    width: 140%;
+    font-size: larger;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.call button{
+    margin-left: 15px;
+}

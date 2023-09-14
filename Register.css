@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(252, 201, 91);
+   
+}
+center h1{
+    color: maroon;
+    font-family: cursive;
+}
+.second-line{
+    height: 50px;
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    
+}
+.main-con{
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+}
+.register{
+    height: 50px;
+    background-color: white;
+    flex-basis: 49.75%;
+    text-align: center;
+    padding-top: 10px;
+}
+.divide{
+    flex-basis: 0.5%;
+    height: 30px;
+    background-color: gray;
+}
+.login{
+    height: 50px;
+    background-color: white;
+    flex-basis: 49.75%;
+    text-align: center;
+    padding-top: 10px;
+}
+ .main-con .register a:hover{
+    color: gray;
+ }
+ a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+ }
+ .load{
+    height: 4px;
+    flex-basis: 90%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .loading{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 123, 255);
+ }
+ .form{
+    padding-left: 30%;
+    width: 50%;
+ }
+ aside{
+    width: 20%;
+    height: 40px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-small;
+    padding-top: 20px;
+    border: 5px;
+    
+ }
+ article{
+    display: flex;
+    margin-left: 270px;
+    gap: 20px;
+    
+    
+ }
+ .bg-text{
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+
+
+ }
+ .body{
+    width: 70%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .p{
+    width: fit-content;
+ }
+ input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid;
+ }
+ input:focus{
+    outline: 0;
+    /* transition: 1s; */
+    border: 5px solid rgb(252, 201, 91);
+ }
+ input[type=checkbox]{
+width: 20px;
+ }
+ input[type]{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 90%;
+ }
+ button{
+    width: 40%;
+    height: 40px;
+    background-color: rgb(252, 201, 91);
+    border: 0;
+    font-size: 1.5rem;
+    font-family: cursive;
+ }
+ label{
+    font-weight: bolder;
+ }
